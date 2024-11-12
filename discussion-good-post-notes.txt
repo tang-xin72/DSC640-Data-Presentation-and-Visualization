@@ -1,0 +1,23 @@
+Visualization good practice:
+https://databox.com/how-to-visualize-data
+
+
+plotply in R
+https://www.kaggle.com/code/meryentr/plotly-tutorial-47-different-graphs
+
+
+good visual example:
+https://dirt.asla.org/2018/10/03/charles-joseph-minard-a-legacy-of-beautiful-data-based-maps/
+
+
+Gestalt’s Principals
+https://playfairdata.com/applying-gestalt-principles-to-dashboard-design/
+
+
+LOESS vs Linear Regression
+https://www.geeksforgeeks.org/ml-locally-weighted-linear-regression/#
+
+For Density: Heat maps, hexbin maps, and choropleth maps are effective for understanding spatial distributions and densities.
+For Connections: Flow maps and network maps are best suited for visualizing relationships between different locations.
+For Influence Zones: Voronoi diagrams help visualize areas of influence, while cluster maps show where certain types of points are concentrated.
+For Changes Over Time: Time-enabled maps show how spatial relationships evolve, useful for trend analysis.
