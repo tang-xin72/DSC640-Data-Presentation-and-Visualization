@@ -1,0 +1,9 @@
+How to markdown a R code to Pdf
+
+1.run the code to ensure no error
+2.File-->new file-->new markdown file
+3. In teh file opened, insert code into the 
+   ```{r cars}
+   ```
+4. click knit, let the R-studio knit the file, select knit to pdf.
+5. At the end, it will create a rmd file and a pdf file    
