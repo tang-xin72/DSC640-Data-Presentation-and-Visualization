@@ -1,2 +1,8 @@
 Term Project with 5 milestone
 Analysis National Database of Childcare price and draw a conclusion. define Audience, end up with a call of action and at least 3 mediums, as well as Ethical Considerations. 
+Data is located at https://content.bellevue.edu/cst/dsc/640/2024Update/Datasets/nationaldatabaseofchildcareprices.xlsx
+ML1: explore the data and define the direction to work on, define audience, identify mediums
+ML2: develop Medium and plan for presentation. 
+ML3: draft medium
+ML4: prepare the final paper with findings, assumption, item still need to be clarified. describle design decisions.
+ML5: Final medium and summary paper
