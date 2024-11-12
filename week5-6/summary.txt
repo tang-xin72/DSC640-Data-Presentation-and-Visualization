@@ -1,0 +1,2 @@
+Exercise: Kia Thefts
+using R for the visuals. create Pie/Donut charts, Stacked bar with categorical Data, tree Map, Area Chart and stacked Area charts
