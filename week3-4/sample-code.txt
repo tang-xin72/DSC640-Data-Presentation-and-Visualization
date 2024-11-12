@@ -1,0 +1,99 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the visitor log data
+data = pd.read_csv('white_house_visitor_log.csv')
+
+# Group by visitor type and count occurrences
+visitor_counts = data['visitor_type'].value_counts()
+
+# Create a column chart
+plt.figure(figsize=(10, 6))
+visitor_counts.plot(kind='bar', color='skyblue')
+plt.title('White House Visitor Log')
+plt.xlabel('Visitor Type')
+plt.ylabel('Number of Visitors')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+Basic column chart
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+Time series column chart
+# Sample data for the White House visitor log
+data = {
+    'Visitor': ['Visitor A', 'Visitor B', 'Visitor C', 'Visitor D', 'Visitor E'],
+    'Visit Time': ['2023-01-01 10:00', '2023-01-01 11:00', '2023-01-01 12:00', '2023-01-01 13:00', '2023-01-01 14:00']
+}
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+df['Visit Time'] = pd.to_datetime(df['Visit Time'])
+
+# Count visits per hour
+df['Hour'] = df['Visit Time'].dt.hour
+visit_counts = df['Hour'].value_counts().sort_index()
+
+# Plotting the column chart
+plt.figure(figsize=(10, 6))
+visit_counts.plot(kind='bar', color='skyblue')
+plt.title('White House Visitor Log - Visits by Hour')
+plt.xlabel('Hour of the Day')
+plt.ylabel('Number of Visitors')
+plt.xticks(rotation=0)
+plt.grid(axis='y')
+plt.show()
+
+#scatter plot with time
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the dataset
+data = pd.read_csv('white_house_visitor_log.csv')
+
+# Convert the time column to datetime
+data['visit_time'] = pd.to_datetime(data['visit_time'])
+
+# Create a scatter plot
+plt.figure(figsize=(10, 6))
+plt.scatter(data['visit_time'], data['visitor_count'], alpha=0.5)
+plt.title('White House Visitor Log Over Time')
+plt.xlabel('Visit Time')
+plt.ylabel('Number of Visitors')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample data for White House visitor log
+data = {
+    'Time': ['2023-01-01 08:00', '2023-01-01 09:00', '2023-01-01 10:00', 
+             '2023-01-01 11:00', '2023-01-01 12:00', '2023-01-01 13:00'],
+    'Visitors': [5, 10, 15, 20, 25, 30]
+}
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+df['Time'] = pd.to_datetime(df['Time'])
+
+# Create a step chart
+plt.step(df['Time'], df['Visitors'], where='post', label='Visitors Count', linewidth=2)
+plt.title('White House Visitor Log')
+plt.xlabel('Time')
+plt.ylabel('Number of Visitors')
+plt.xticks(rotation=45)
+plt.legend()
+plt.grid()
+plt.tight_layout()
+plt.show()
+
+remove the time from timedate data
+
+import datetime
+my_date=my_datetime.date()
+print(my Date)
