@@ -1,0 +1,2 @@
+Exericse: white house visitor logs using Python for visuals
+use bar& column charts, stacked bar with Time, Scatterplots with Time, line and step charts. 
