@@ -1,0 +1,2 @@
+Exercise: lottey numbers analysis using PowerBI/Tableau
+create Scratter plot, Bubble charts, Histogram, Density Plot and Small Multiples
