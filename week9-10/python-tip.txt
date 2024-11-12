@@ -1,0 +1,13 @@
+How to group by year
+https://www.statology.org/pandas-group-by-year/
+
+     date       sales  returns
+0 2020-01-31      6        0
+1 2020-04-30      3        2
+
+df.groupby(df.date.dt.year)['sales'].max()
+
+    team	position points	rebounds
+0	  A	     G	      5	      11
+#count number of unique values in 'points' column grouped by 'team' column
+df.groupby('team')['points'].nunique()
