@@ -1,0 +1,2 @@
+assignment is netflix view top list
+Design: consider startegy on color, text, alignment, sizing and spacing, also add thical considerataions. 
